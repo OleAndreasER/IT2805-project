@@ -1,7 +1,7 @@
 bod = document.body.children;
 menu = document.getElementById("dd-menu");
 dd = document.getElementById("dropdown");
-na = document.getElementsByTagName("nav")[0]
+na = document.getElementsByTagName("nav")[0];
 
 
 // Hides navbar dropdown
@@ -38,6 +38,7 @@ for (i=0; i<bod.length; i++) {
 
 menu.addEventListener("click", e => {
     toggleDD();
+    console.log("hei");
 });
 
 // Makes the navbar and especially the menu very visible on page load.
